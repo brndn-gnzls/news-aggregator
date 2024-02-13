@@ -9,7 +9,7 @@ const baseUrl = "https://newsapi.org/v2"
 /*
 * Place API key.
 */
-const API_KEY = ""
+const API_KEY = "&apiKey=<API_KEY>"
 
 const newsA = "/top-headlines?country=us"
 
