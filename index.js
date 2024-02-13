@@ -5,7 +5,12 @@ const categorySpan = document.querySelectorAll(".category span")
 const defaultImage = "./images/default.jpg"
 
 const baseUrl = "https://newsapi.org/v2"
-const API_KEY = "&apiKey=93e8c82510db4620a481daba52b43b94"
+
+/*
+* Place API key.
+*/
+const API_KEY = ""
+
 const newsA = "/top-headlines?country=us"
 
 async function dataRequest(url) {
